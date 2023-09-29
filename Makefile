@@ -1,6 +1,6 @@
 
 # Image URL to use all building/pushing image targets
-IMG_REPO ?= redradrat/aws-iam-controller
+IMG_REPO ?= public.ecr.aws/f7r8w4e7/aws-iam-operator
 IMG ?= ${IMG_REPO}:latest
 
 # VERSION defines the project version for the bundle.
